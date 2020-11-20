@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+Montserrat 500
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+
+Nunito Sans 400
+font-family: 'Nunito Sans', sans-serif; 
+font-weight: 400;
+*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Main screen */
+.main_screen{
+    background-color: #E9E9E9;
+    max-width: 100%;
+    padding: 45px 0px;
+}
+.logo{
+    width: 31px;
+    height: 25px;
+    background-image: url(../media/image/logo@1X.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.menu_selection{
+    text-decoration: none;
+    color: black;
+    margin: 0px 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.menu_selection:hover{
+    color: #10C9C3;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.container_for_card{
+    display: flex;
+    justify-content: flex-end;
+}
+.designDevelop{
+    flex-basis: 50%;
+    margin-top: 180px;
+}
+.title_of_designDevelop{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    margin-bottom: 32px;
+}
+.caption_of_designDevelop{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    color: #787878;
+    margin-bottom: 38px
+}
+.pill_of_designDevelop{
+    text-transform: uppercase;
+    background-color: #10C9C3;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 16px 50px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 205px;
+    cursor: pointer;
+}
+.pill_of_designDevelop:hover{
+    background-color: #2db9b5;
+}
+.pill_of_designDevelop:active{
+    background-color: #2aaaa6;
+}
+
+/* Sighend_screen */
+.sighend_screen{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 98px 0px;
+}
+.sighend_details{
+    flex-basis: 50%;
+}
+.title_of_sighend_screen{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 38px;
+}
+.caption_of_sighend_screen{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 400;
+    color: #787878;
+    margin-bottom: 38px;
+    line-height: 32px;
+}
+
+/* Professional skill */
+.professional_skills{
+    background-color: #E9E9E9;
+    max-width: 100%;
+}
+.title_of_professional_skills{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 32px;
+}
+.cap_below_indicator_professional_skills{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
