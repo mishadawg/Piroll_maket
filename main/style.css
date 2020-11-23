@@ -80,6 +80,7 @@ header{
     font-weight: 500;
     margin-bottom: 205px;
     cursor: pointer;
+    transition: 0.3s;
 }
 .pill_of_designDevelop:hover{
     background-color: #2db9b5;
@@ -116,6 +117,7 @@ header{
 .professional_skills{
     background-color: #E9E9E9;
     max-width: 100%;
+    padding: 156px 0px;
 }
 .title_of_professional_skills{
     font-family: 'Montserrat', sans-serif;
@@ -129,4 +131,74 @@ header{
     font-size: 12px;
     text-transform: uppercase;
     margin-bottom: 16px;
+}
+.ranger{
+    width: 550px;
+}
+.container_under_prof_skills{
+    background-color: #10C9C3;
+    color: white;
+    padding: 102px 0px;
+}
+.arr_card_prof_skills{
+    display: flex;
+    justify-content: space-between;
+}
+.prof_skills_caption{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.number_of_prof_skills{
+    margin-bottom: 6px;
+}
+.card{
+    position: relative;
+}
+.photo_card_prof_skill{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: -65px;
+}
+
+/* Viewer */
+.viewer{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.gray_bg{
+    background-color: rgb(128, 128, 128);
+}
+.photo{
+    height: 301px;
+    flex-basis: 25%;
+    position: relative;
+}
+.photo:hover{
+    
+    position: absolute;
+    background-color: #4b48486b;
+}
+.pill_photo{
+    padding: 47px 0px;
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #8E8E8E;
+    background-color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.pill_photo:hover{
+    background-color: #e4e1e1;
+}
+.pill_photo:active{
+    background-color: #cecdcd;
 }
