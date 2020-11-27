@@ -177,11 +177,6 @@ header{
     flex-basis: 25%;
     position: relative;
 }
-.photo:hover{
-    
-    position: absolute;
-    background-color: #4b48486b;
-}
 .pill_photo{
     padding: 47px 0px;
     width: 100%;
@@ -201,4 +196,177 @@ header{
 }
 .pill_photo:active{
     background-color: #cecdcd;
+}
+
+/*Video*/
+.our_work{
+    text-align: center;
+    padding: 100px 0px;
+}
+.container_video{
+    position: relative;
+}
+.video_area{
+    width: 100%;
+    height: 571px;
+    background-color: #e9e9e9;
+}
+.play_button{
+    left: 45%;
+    top: 45%;
+    position: absolute;
+    background-color: #10c9c3;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+.play_button:hover{
+    background-color: #2db9b5;
+}
+.play_button:active{
+    background-color: #2aaaa6;
+}
+.play_icon{
+    color: white;
+    font-size: 24px;
+}
+
+/* Advantages */
+.cards_advantages{
+    background-color: #f5f5f5;
+    padding: 100px 0px;
+}
+.arr_of_cards_advantages{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card_advantages{
+    margin: 60px 0px;
+    text-align: center;
+    flex-basis: 25%;
+}
+.title_of_card_advantages{
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.caption_of_card_advantages{
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+}
+.image_of_card_advantages{
+    width: 40spx;
+    height: 45px;
+    margin-bottom: 26px;
+}
+
+/* slider */
+.slider_back{
+    background-color: #10c9c3;
+    padding: 60px 0px;  
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.quote{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 36px;
+}
+.author{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 109px;
+    text-align: center;
+}
+.pagginations_nav {
+    text-align: center;
+}
+.paggination{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+
+/* Brands */
+.brands{
+    padding: 68px 0px;
+}
+.arr_brands{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*Form*/
+.form{
+    background-color: #f5f5f5;
+    padding: 100px 0px;
+}
+.form_container{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    width: 670px;
+}
+.container_inputs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title_of_form{
+    color: #1d1d1d;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 38px;
+}
+.caption_of_form{
+    margin-bottom: 38px;
+    color: #787878;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center; 
+}
+.pill_form{
+    margin: 0 auto;
+}
+.tall_input{
+    height: 170px;
+}
+.input{
+    color: #787878;
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+    font-weight: 400;
+    padding: 18px 28px;
+    margin-bottom: 30px;
+    flex-basis: 45%;
+    border: none;
+}
+.wide_ipnut{
+    flex-basis: 100%;
 }
