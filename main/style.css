@@ -300,13 +300,34 @@ header{
     text-align: center;
 }
 .paggination{
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: white;
     outline: none;
     border: none;
+    cursor: pointer;
+    margin: 0px 6px;
 }
+.paggination:hover{
+   transform: scale(1.4);
+   transition: 0.7s;
+}
+.paggination:active{
+    transform: scale(1.4);
+    transition: 0.7s;
+ }
+ .slider{
+    width: 1366px;
+    height: 500px;
+}
+.slide{
+    display: none;
+}
+.block {
+    display: block;
+}
+
 
 /* Brands */
 .brands{
@@ -369,4 +390,51 @@ header{
 }
 .wide_ipnut{
     flex-basis: 100%;
+}
+
+/* footer */
+footer ul{
+    list-style: none;
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+ul li:hover{
+    color: white;
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+.bottom{
+    padding: 100px 0px;
+    color: white;
+    background-color: #141414;
+}
+.logo_bottom{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+}
+.rights_bottom{
+    color: #bcbcbc;
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+    font-weight: 400; 
+}
+.bottom_container{
+    display: flex;
+    justify-content: space-around;
+}
+.menu_bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 60%;
+}
+.centr_container{
+    display: flex;
+    flex-basis: 20%;
+    justify-content: space-between;
 }
