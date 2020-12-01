@@ -22,6 +22,9 @@ font-weight: 400;
     background-color: #E9E9E9;
     max-width: 100%;
     padding: 45px 0px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 50%;
 }
 .logo{
     width: 31px;
@@ -222,6 +225,10 @@ header{
     outline: none;
     border: none;
     transition: 0.3s;
+    display: none;
+}
+.container_video:hover .play_button{
+    display: block;
 }
 .play_button:hover{
     background-color: #2db9b5;
@@ -232,6 +239,11 @@ header{
 .play_icon{
     color: white;
     font-size: 24px;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
 }
 
 /* Advantages */
